@@ -5,164 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61301ec1-28af-45ef-8fea-d7f14ab03dae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/.com.google.Chrome.KvNH1A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/046d2445d3d92699_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/0621940398160129_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/06588dfa0befff29_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/099f2b54e5ec9996_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1311898e6265f094_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/199afe820a2450e5_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1bc30acfc46a8ac5_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1c23f2156f9d37a6_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1e70cd8bb6eec46d_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1ecca039fabf7741_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/1fdeb47fca646b39_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/209ae3fe665a6c0f_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/219cecf886f35511_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/256e6849723d71b7_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/26c21971018908b3_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/270831d9dc68e88c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/297198e47a9efec6_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/29ea0b3d651716a0_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/2a1e9b5f81b38735_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/2f737e5217981b6a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/384d3a79bd1b9b27_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/3f0e50c3bd1e1057_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/4103e16183b4278e_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/43ffc4c7d4aa2fd0_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/4862af35125c22eb_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/4b123d03d396a542_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/5965ee8116d09ee6_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/5bd12a100c5447c6_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/6199564cbcda5fb2_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/672b07c87d6ccf27_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/6c634667f68b7af1_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/6d02b902b47b0d8a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/6e2124253a39c019_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/712af80a3b93c521_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/71ef240ceefbd803_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/7748b9b47b3c519c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/775f04b896bfe81d_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/7a429a7bb48f0a6e_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/85e0dfccf212696b_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/8c4769b819623d3c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/92923582dbff5678_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/93f86f04ee0c56ab_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/96b9c7472aed4b25_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/96edcd23b7a1ea1e_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/99ba2c9b1d02f438_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/9a252a2077f16a6e_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/9ab878b7c847b736_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/9b046f56f0b31b98_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/9b3227c98aa1702a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/9c035b0163b4bc3a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/a239d3063b650f4f_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/a396a20a444d0829_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/a940ee1af5f59a1d_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/a992ac71b3701d0f_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/aaa9a9dcdd4a31c4_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/ad246ef61f24bba0_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/b125a860f40852ef_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/b1bf8a7f84f8b2ff_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/b3eedde550eacde2_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/bc852a90f30e58e5_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/be4cdef0f3fe0f3e_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/c076ae070f8add5c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/c3068fadc39da40c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/c529a192bd7f5a12_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/cb423d043bfc5430_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/cc3f383da9c0308a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/d2d48bc5a6375899_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/d6f79b8f0e3523bb_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/d8b560fa55c399dc_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/e51a2b04c514d131_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/ed71c0a333cb8223_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/ed8f58c210c91f46_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/f1e9a7a75f175e41_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/f983f32df3f6c9fb_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/fb02c6e203fe4f5b_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/fb30a6252906395a_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/fc532517b831262d_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/ff4de6f28628e32c_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50369.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50369.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50369.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50369.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50369.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50568.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50568.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50568.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50568.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50568.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_52135.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_52135.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_52135.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_52135.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_52135.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53196.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53196.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53196.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53196.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53196.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53915.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53915.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53915.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53915.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53915.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60075.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60075.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60075.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60075.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60075.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_62269.indexeddb.leveldb/000005.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_62269.indexeddb.leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_62269.indexeddb.leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_62269.indexeddb.leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_62269.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/000008.ldb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/660cba17e08c7ddf_0" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Cache/660cba17e08c7ddf_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Favicons" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GPUCache/data_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/GPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64381.indexeddb.leveldb/000010.ldb" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64381.indexeddb.leveldb/000010.ldb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55914.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55914.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Visited Links" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Visited Links" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/app.dill.deps" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/app.dill.deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/dart2js.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/dart2js.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/dart2js.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/dart2js.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/main.dart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/web_release_bundle.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/4ad390cf86220a6fd0e3ed5e0299d95c/web_release_bundle.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/flutter_service_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/flutter_service_worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/main.dart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/AdminPage/business_profile/business_profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/business_profile/business_profile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/categories/categories.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/categories/categories.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/dashboard/admin_dashboard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/dashboard/admin_dashboard.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/dashboard/customer_visits.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/dashboard/customer_visits.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/dashboard/order_items.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/dashboard/order_items.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/dine_in_tables/dine_in_tables.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/dine_in_tables/dine_in_tables.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/login/admin_login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/login/admin_login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AdminPage/login/admin_register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AdminPage/login/admin_register.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/demo2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sales/bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sales/bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sales/pie_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sales/pie_chart.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +112,7 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="351" y="178" key="#main.dart/0.0.1440.900/-1920.-233.1920.1080@0.0.1440.900" timestamp="1618658922991" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1622044941925">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1622125909011">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="278" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-233.1920.1080@0.0.1440.900" timestamp="1618903925441" />
@@ -266,11 +120,11 @@
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-203.1920.1057@0.0.1440.900" timestamp="1620474066414" />
     <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-226.1920.1080@0.0.1440.900" timestamp="1620632667392" />
     <state width="1878" height="301" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-226.1920.1080@1440.-226.1920.1080" timestamp="1620052860972" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622044941925" />
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622125909011" />
     <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1619366096748" />
     <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1620639666344" />
     <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1620703039623" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1622044941913">
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1622125909009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.0.1440.845@0.0.1440.845" timestamp="1621017802578" />
@@ -280,11 +134,11 @@
     <state width="1398" height="215" key="GridCell.Tab.0.center/0.0.1440.900/1440.-203.1920.1057@0.0.1440.900" timestamp="1620474066411" />
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.0.1440.900/1440.-226.1920.1080@0.0.1440.900" timestamp="1620632667390" />
     <state width="1878" height="301" key="GridCell.Tab.0.center/0.0.1440.900/1440.-226.1920.1080@1440.-226.1920.1080" timestamp="1620052860969" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622044941913" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622125909009" />
     <state width="1398" height="229" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1619366096748" />
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1620639666344" />
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1620703039622" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1622044941908">
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1622125909007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="278" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-233.1920.1080@0.0.1440.900" timestamp="1618903925438" />
@@ -292,12 +146,12 @@
     <state width="1398" height="215" key="GridCell.Tab.0.left/0.0.1440.900/1440.-203.1920.1057@0.0.1440.900" timestamp="1620474066409" />
     <state width="1398" height="217" key="GridCell.Tab.0.left/0.0.1440.900/1440.-226.1920.1080@0.0.1440.900" timestamp="1620632667389" />
     <state width="1878" height="301" key="GridCell.Tab.0.left/0.0.1440.900/1440.-226.1920.1080@1440.-226.1920.1080" timestamp="1620052860968" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622044941908" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622125909007" />
     <state width="1398" height="229" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1619366096747" />
     <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1621017802559" />
     <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.823/1440.-203.1920.1057@0.0.1440.846" timestamp="1620199713824" />
     <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1620703039621" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1622044941920">
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1622125909010">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="278" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-233.1920.1080@0.0.1440.900" timestamp="1618903925440" />
@@ -305,7 +159,7 @@
     <state width="1398" height="215" key="GridCell.Tab.0.right/0.0.1440.900/1440.-203.1920.1057@0.0.1440.900" timestamp="1620474066412" />
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.0.1440.900/1440.-226.1920.1080@0.0.1440.900" timestamp="1620632667391" />
     <state width="1878" height="301" key="GridCell.Tab.0.right/0.0.1440.900/1440.-226.1920.1080@1440.-226.1920.1080" timestamp="1620052860971" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622044941920" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622125909010" />
     <state width="1398" height="229" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1619366096748" />
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1620639666344" />
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1620703039623" />
@@ -325,11 +179,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1620730493856" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621502086595">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622118491958">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="7" y="6" width="1426" height="891" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/-1920.-233.1920.1080@0.0.1440.900" timestamp="1618830845000" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1619456733798" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1622118491958" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1621502086595" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.822@0.23.1440.822" timestamp="1618794602145" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.823@0.23.1440.823" timestamp="1620626470654" />

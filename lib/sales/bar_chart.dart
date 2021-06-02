@@ -18,7 +18,7 @@ class Bar extends StatefulWidget {
 class _BarState extends State<Bar> {
 
 
-  var snap;
+  QuerySnapshot snap;
 
   @override
   Widget build(BuildContext context) {
@@ -26,25 +26,46 @@ class _BarState extends State<Bar> {
     var dateParse = DateTime.parse(dates);
     var formattedDate =
     DateFormat('yyyy-MM-dd').format(DateTime.parse(dateParse.toString()));
-    return StreamBuilder(
-        stream:FirebaseFirestore.instance
-            .collection(FirebaseAuth.instance.currentUser.displayName)
-            .doc('completedPayment')
-            .collection('weeklySales')
-            .where(
-            'dates',
-            isGreaterThanOrEqualTo: formattedDate).snapshots(),
-        builder:(BuildContext context,snapshot){
-          if (!snapshot.hasData) {
-            return Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-          snap = snapshot.data;
-      return
-         BarChartOne(snap: snap,);
+    var endDate = DateTime.now().toString();
+    var endParse = DateTime.parse(endDate);
+    var currentDate =
+    DateFormat('yyyy-MM-dd').format(DateTime.parse(endDate.toString()));
+    return
+    StreamBuilder<QuerySnapshot>(
+      stream:FirebaseFirestore.instance
+          .collection(FirebaseAuth.instance.currentUser.displayName)
+          .doc('completedPayment')
+          .collection('weeklySales')
+          .where(
+          'dates',
+          isGreaterThanOrEqualTo: formattedDate).snapshots(),
 
-    });
+        builder: (context, snapshot) {
+      if (snapshot.hasError || !snapshot.hasData) {
+        return Text(
+            'We run into an error ${snapshot.error}');
+      }
+
+      switch (snapshot.connectionState) {
+        case ConnectionState.waiting:
+
+
+          return Center(
+            child: CircularProgressIndicator(),
+          );
+        case ConnectionState.none:
+          return Text('Oops no data present');
+        case ConnectionState.done:
+
+          return Text('We are done');
+        default:  snap =  snapshot.data;
+        print(snapshot.data.docs.isEmpty ? ('Empty') : ('Data Available'));
+          return
+
+            BarChartOne(snap: snap.docs.isEmpty ? null : snap,);
+      }
+    },
+    );
   }
 }
 
@@ -59,6 +80,7 @@ class BarChartOne extends StatefulWidget {
 }
 
 class BarChartOneState extends State<BarChartOne> {
+
   var maxx;
   var minx;
   final List<double> weeklyData = [ ];
@@ -68,24 +90,60 @@ class BarChartOneState extends State<BarChartOne> {
   TextStyle dateTextStyle =
   TextStyle(fontSize: 10,wordSpacing: 2.0,  color: const Color(0xff379982), fontWeight: FontWeight.bold);
   getData(){
-    String dr ;
-    setState(() {
-      widget.snap.docs.forEach((element){
-        weeklyData.add(element.get('amount'));
-        dr = element.get('date');
-        Dates.add(dr.split('-').first);
-        lastIndex  = Dates.length;
+
+    var dates = new DateTime.now().subtract(Duration(days: 7,hours: 0,minutes: 0)).toString();
+    var dateParse = DateTime.parse(dates);
+    var formattedDate =
+    DateFormat('yyyy-MM-dd').format(DateTime.parse(dateParse.toString()));
+    var endDate = DateTime.now().toString();
+    var endParse = DateTime.parse(endDate);
+    var currentDate =
+    DateFormat('yyyy-MM-dd').format(DateTime.parse(endDate.toString()));
 
 
-      });
+    int start =  int.parse(formattedDate.split('-').last);
+    int end =  int.parse(currentDate.split('-').last);
 
-      Dates.removeLast();
 
-    });
-    if (weeklyData != null && weeklyData.isNotEmpty) {
-      maxx = weeklyData.map<int>((e) => e.toInt()).reduce(max);
-      minx = weeklyData.map<int>((e) => e.toInt()).reduce(min);
+    if( widget.snap == null){
+     setState(() {
+       for( int i = start; i<= end; i++) {
+         print(i);
+         Dates.add(i.toString());
+         weeklyData.add(0);
+         maxx = 100;
+         minx = 0;
+
+       }
+     });
+     Dates.removeLast();
     }
+    else
+      {
+        String dr ;
+        setState(() {
+          widget.snap.docs.forEach((element){
+
+            weeklyData.add(element.get('amount'));
+            dr = element.get('date');
+            Dates.add(dr.split('-').first);
+            lastIndex  = Dates.length;
+
+
+          });
+
+          Dates.removeLast();
+
+        });
+        if (weeklyData != null && weeklyData.isNotEmpty) {
+          maxx = weeklyData.map<int>((e) => e.toInt()).reduce(max);
+          minx = weeklyData.map<int>((e) => e.toInt()).reduce(min);
+        }
+        else
+        {
+          print('nulll');
+        }
+      }
   }
 
 
@@ -99,6 +157,11 @@ class BarChartOneState extends State<BarChartOne> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
+
+
+
+
+
     return Container(
       height: size.height * 0.39,
       width:  size.width * 0.3,

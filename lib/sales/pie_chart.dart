@@ -17,7 +17,7 @@ class PieChartMain extends StatefulWidget {
 }
 
 class _PieChartMainState extends State<PieChartMain> {
-  var snap;
+  QuerySnapshot snap;
 
   @override
   Widget build(BuildContext context) {
@@ -40,9 +40,10 @@ class _PieChartMainState extends State<PieChartMain> {
               child: CircularProgressIndicator(),
             );
           }
+
           snap = snapshot.data;
           return
-            PieChartS(snap: snap,);
+            PieChartS(snap: snap.docs.isEmpty ? null : snap,);
 
         });
   }
@@ -65,31 +66,72 @@ class PieChartSState extends State<PieChartS> {
   Map<String, int> countDay = {};
 
   getData(){
-    String dr ;
-    setState(() {
-      widget.snap.docs.forEach((element){
-        countDate['${element.get('date')}'] = countDate.containsKey('${element.get('date')}') ? countDate['${element.get('date')}'] + 1: 1;
-        countDay['${element.get('day')}'] = countDay.containsKey('${element.get('day')}') ? countDay['${element.get('day')}'] + 1: 1;
-        // print(element.get('date'));
 
+
+    var dates = new DateTime.now().subtract(Duration(days: 7,hours: 0,minutes: 0)).toString();
+    var dateParse = DateTime.parse(dates);
+    var formattedDate =
+    DateFormat('yyyy-MM-dd').format(DateTime.parse(dateParse.toString()));
+    var endDate = DateTime.now().toString();
+    var endParse = DateTime.parse(endDate);
+    var currentDate =
+    DateFormat('yyyy-MM-dd').format(DateTime.parse(endDate.toString()));
+
+
+    int start =  int.parse(formattedDate.split('-').last);
+    int end =  int.parse(currentDate.split('-').last);
+
+// print('widget.snap ${widget.snap}');
+    if( widget.snap == null){
+      setState(() {
+        for( int i = start; i<= end; i++) {
+          // print(i);
+          weekDate.add(i.toString());
+          weekDay = ['Monday ', 'Tuesday', 'Wednesday','Thursday', 'Friday',' Saturday','Sunday'];
+          // weekData.add(1);
+          // print(weekData);
+          weekData = [0,0,0,0,0,0,0];
+        }
       });
-    });
-    countDate.forEach((key, value) {
-      // print(value);
-      // print(key);
-     String dr = key.toString();
-      weekDate.add(dr.split('-').last);
-      weekData.add(value);
-      // weekDate.add(key);
-      print(weekData);
-    });
-    countDay.forEach((key, value) {
-      weekDay.add(key);
-    });
-    print(weekDate);
-    print(weekDay);
-    print(weekData);
-  }
+
+    }
+    else
+      {
+        // print('else');
+        String dr ;
+        setState(() {
+          widget.snap.docs.forEach((element){
+            countDate['${element.get('date')}'] = countDate.containsKey('${element.get('date')}') ? countDate['${element.get('date')}'] + 1: 1;
+            countDay['${element.get('day')}'] = countDay.containsKey('${element.get('day')}') ? countDay['${element.get('day')}'] + 1: 1;
+            // print(element.get('date'));
+
+          });
+        });
+        countDate.forEach((key, value) {
+          // print(value);
+          // print(key);
+          String dr = key.toString();
+          weekDate.add(dr.split('-').last);
+          weekData.add(value);
+
+          // weekDate.add(key);
+          // print(weekData);
+        });
+        weekDate.removeLast();
+        weekData.removeLast();
+        countDay.forEach((key, value) {
+          weekDay.add(key);
+        });
+        // print(weekDate);
+        // print(weekDay);
+        // print(weekData);
+      }
+      }
+
+
+
+
+
 
 @override
   void initState() {

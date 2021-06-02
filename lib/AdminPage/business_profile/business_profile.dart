@@ -19,6 +19,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
   TextEditingController gstINController = TextEditingController();
   TextEditingController posPrinterIPController = TextEditingController();
   TextEditingController kotPrinterIPController = TextEditingController();
+  TextEditingController amexSurgController = TextEditingController();
   var maskFormatter = new MaskTextInputFormatter(mask: '+61 (##) ####-####', filter: { "#": RegExp(r'[0-9]') });
 
   String shopName;
@@ -28,6 +29,9 @@ class _BusinessProfileState extends State<BusinessProfile> {
   String gstIN;
   String posPrinterIP;
   String kotPrinterIP;
+  double amexSurg;
+  double gstAmt;
+  bool quickAmounts;
   bool isSwitched = false;
   bool check;
   @override
@@ -576,7 +580,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                                 },
                                                 textCapitalization: TextCapitalization.words,
                                                 keyboardType: TextInputType.text,
-                                                controller: addressController,
+                                                controller: posPrinterIPController,
                                                 onChanged: (value){
                                                   // taxes = int.parse(value);
                                                 },
@@ -631,7 +635,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                                 },
                                                 textCapitalization: TextCapitalization.words,
                                                 keyboardType: TextInputType.text,
-                                                controller: addressController,
+                                                controller: kotPrinterIPController,
                                                 onChanged: (value){
                                                   // taxes = int.parse(value);
                                                 },
@@ -652,7 +656,89 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                             ),
                                           ],
                                         ),
+                                        StreamBuilder(
+                                            stream: FirebaseFirestore.instance
+                                                .collection(FirebaseAuth.instance.currentUser.displayName)
+                                                .doc("settings").snapshots(),
+                                            builder: (context, snapSettings) {
+                                              if(!snapSettings.hasData || snapSettings.hasError){
+                                                check = false;
+                                                print(check);
+                                                return
+                                                  Column(
+                                                    children: [
+                                                      Text('Loading Please wait'),
+                                                      CircularProgressIndicator(),
+                                                    ],
+                                                  );
+                                              }
+                                              // print(snapshot.data['shopName']);
 
+                                              else
+                                                {
+                                                  amexSurg = snapSettings.data['amexSurg'];
+                                                  gstAmt = snapSettings.data['gstAmt'];
+                                                  quickAmounts = snapSettings.data['quickAmounts'];
+                                                  return
+                                                  Row(
+                                                    children: [
+                                                      Container(
+                                                        decoration: BoxDecoration(
+                                                            color: Colors.grey.shade300,
+                                                            border: Border.all(color: Colors.grey.shade400)),
+                                                        height: size.height * 0.06,
+                                                        width: size.width * 0.1,
+                                                        child: Center(
+                                                          child: Text(
+                                                            'amexSurg',
+                                                            style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontStyle: FontStyle.italic,
+                                                              fontSize: size.width * 0.01,
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      Container(
+                                                        height: size.height * 0.06,
+                                                        width: size.width * 0.275,
+                                                        decoration: BoxDecoration(
+                                                            color: Colors.white,
+                                                            border: Border.all(color: Colors.grey.shade400)),
+                                                        child: TextFormField(
+                                                          validator: (String value) {
+                                                            if (value.length < 3)
+                                                              return " Enter at least 3 character from Customer Name";
+                                                            else
+                                                              return null;
+                                                          },
+                                                          textCapitalization: TextCapitalization.words,
+                                                          keyboardType: TextInputType.text,
+                                                          controller: amexSurgController,
+                                                          onChanged: (value){
+                                                            // taxes = int.parse(value);
+                                                          },
+                                                          autofillHints: [AutofillHints.givenName],
+                                                          decoration: InputDecoration(
+                                                              enabledBorder: InputBorder.none,
+                                                              focusedBorder: InputBorder.none,
+                                                              hintText: '${snapSettings.data['amexSurg']== null ? '0' : snapSettings.data['amexSurg']}' ,
+                                                              hintStyle: TextStyle(
+                                                                color: Colors.grey,
+                                                                fontStyle: FontStyle.italic,
+                                                                fontSize: size.width * 0.01,
+                                                              ),
+                                                              hoverColor: Colors.white,
+                                                              filled: true,
+                                                              focusColor: Colors.white),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  );
+                                                }
+
+                                          }
+                                        ),
                                         InkWell(
                                           onTap: ()async{
                                             shopName = shopNameController.text == '' ? snapshot.data['shopName']: shopNameController.text;
@@ -662,7 +748,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                             gstIN = gstINController.text == '' ? snapshot.data['gstIN']: gstINController.text;
                                             kotPrinterIP = kotPrinterIPController.text == '' ? snapshot.data['kotPrinterIP']: kotPrinterIPController.text;
                                             posPrinterIP = posPrinterIPController.text == '' ? snapshot.data['posPrinterIP']: posPrinterIPController.text;
-
+                                            amexSurgController.text  == '' ? amexSurg  : amexSurg = double.parse(amexSurgController.text);
                                             await FirebaseFirestore.instance
                                                 .collection(FirebaseAuth.instance.currentUser.displayName)
                                                 .doc("businessProfile")
@@ -675,7 +761,12 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                               "inclusiveGST" : isSwitched,
                                               "kotPrinterIP" : kotPrinterIP,
                                               "posPrinterIP" : posPrinterIP,
+
+
+
+
                                             }).then((value) {
+
                                               shopNameController.text = '';
                                               addressController.text = '';
                                               stateCountryController.text = '';
@@ -683,7 +774,20 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                               gstINController.text = '';
                                               posPrinterIPController.text = '';
                                               kotPrinterIPController.text ='';
+
                                               print('firebase updated');
+                                            });
+                                            print('amexSurg $amexSurg');
+                                            await FirebaseFirestore.instance
+                                                .collection(FirebaseAuth.instance.currentUser.displayName)
+                                                .doc("settings").set({
+                                              'amexSurg': amexSurg,
+                                              'quickAmounts' :quickAmounts,
+                                              'gstAmt': gstAmt,
+                                            }).then((value) {
+                                              amexSurgController.text = '';
+                                              print('firebase  Settings updated');
+
                                             });
                                           },
                                           child: Card(
