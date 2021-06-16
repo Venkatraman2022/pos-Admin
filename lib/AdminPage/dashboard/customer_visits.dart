@@ -20,9 +20,10 @@ class Record {
   final String date;
   final String time;
   final double amount;
+  final bool refund;
   final DocumentReference reference;
 
-  Record(this.name, this.mobile, this.orderId, this.date, this.time,
+  Record(this.name, this.mobile, this.orderId, this.date, this.time,this.refund,
       this.reference, this.amount,this.paymentType);
   Record.fromMap(Map<String, dynamic> map, {this.reference})
       : assert(map['name'] != null),
@@ -31,6 +32,7 @@ class Record {
         assert(map['date'] != null),
         assert(map['time'] != null),
         assert(map['amount'] != null),
+        assert(map['refunded'] != null),
         assert(map['paymentType'] != null),
         name = map['name'],
         mobile = map['mobile'] == null ? '0' : map['mobile'],
@@ -38,6 +40,7 @@ class Record {
         date = map['date'],
         paymentType = map['paymentType'],
         amount = map['amount'],
+        refund = map['refunded'],
         time = map['time'];
 
   Record.fromSnapshot(DocumentSnapshot snapshot)
@@ -600,6 +603,17 @@ class _CustomerVisitsState extends State<CustomerVisits> {
                         ),
                         DataColumn(
                           label: Text(
+                            ' Refund ',
+                            maxLines: 2,
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                              fontSize: size.width * 0.02,
+                            ),
+                          ),
+                        ),
+                        DataColumn(
+                          label: Text(
                             'Payment Type',
                             style: TextStyle(
                               color: Colors.black,
@@ -699,9 +713,10 @@ class _CustomerVisitsState extends State<CustomerVisits> {
               ],
             ),
           ),
-          DataCell(Text(record.amount.toStringAsFixed(2))),
-          DataCell(Text('Paid')),
-          DataCell(Text(record.paymentType.toString())),
+          DataCell(Center(child: Text(record.amount.toStringAsFixed(2)))),
+          DataCell(Center(child: Text('Paid'))),
+          DataCell(Center(child: Text(record.refund.toString()))),
+          DataCell(Center(child: Text(record.paymentType.toString()))),
         ]));
       }
     }

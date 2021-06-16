@@ -179,6 +179,7 @@ class _AdminRegisterPageState extends State<AdminRegisterPage> {
                                         .collection(nameController.text)
                                         .doc("businessProfile")
                                         .set({
+                                      "ABN":'',
                                       "shopName": '',
                                       "address": '',
                                       "stateCountry": '',
@@ -188,6 +189,28 @@ class _AdminRegisterPageState extends State<AdminRegisterPage> {
                                       "inclusiveGST" : true,
                                       "kotPrinterIP": '',
                                       "posPrinterIP": '',
+
+                                    }).then((value) async{
+                                      await FirebaseFirestore.instance
+                                          .collection(nameController.text)
+                                          .doc("staff").collection('staffLogin').doc().set({
+                                        'discountApprove': true,
+                                        'email':'demo@gmail.com',
+                                        'firstName': 'demo',
+                                        'lastName': 'demo',
+                                        'memberId':'1234',
+                                        'phone':'1234567890',
+                                        'staffId':'posShop01',
+                                        'status':true,
+                                      });
+                                    }).then((value) async{
+                                      await FirebaseFirestore.instance
+                                          .collection(nameController.text)
+                                          .doc("settings").set({
+                                        'amexSurg':1.5,
+                                        'gstAmt':1.1,
+                                        'quickAmounts':true,
+                                      });
                                     });
                                     Navigator.push(
                                       context,

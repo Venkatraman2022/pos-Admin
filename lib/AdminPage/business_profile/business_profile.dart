@@ -660,7 +660,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
                                             stream: FirebaseFirestore.instance
                                                 .collection(FirebaseAuth.instance.currentUser.displayName)
                                                 .doc("settings").snapshots(),
-                                            builder: (context, snapSettings) {
+                                            builder: (context, AsyncSnapshot snapSettings) {
                                               if(!snapSettings.hasData || snapSettings.hasError){
                                                 check = false;
                                                 print(check);
@@ -676,6 +676,7 @@ class _BusinessProfileState extends State<BusinessProfile> {
 
                                               else
                                                 {
+                                                  print(snapSettings.data['amexSurg']);
                                                   amexSurg = snapSettings.data['amexSurg'];
                                                   gstAmt = snapSettings.data['gstAmt'];
                                                   quickAmounts = snapSettings.data['quickAmounts'];

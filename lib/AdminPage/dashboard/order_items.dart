@@ -827,9 +827,7 @@ class _OrderItemsState extends State<OrderItems> {
                                 else
                                   return null;
                               },
-                              inputFormatters: [
-                              FilteringTextInputFormatter.allow(
-                                  RegExp('[a-z,A-Z]')),],
+
                               textCapitalization: TextCapitalization.words,
                               keyboardType: TextInputType.text,
                               controller: categoryController,
@@ -1164,9 +1162,6 @@ class _OrderItemsState extends State<OrderItems> {
                                 onChanged: (value){
                                   itemName = value;
                                 },
-                                inputFormatters: [
-                                  FilteringTextInputFormatter.allow(
-                                      RegExp('[a-z,A-Z]')),],
                                 autofillHints: [AutofillHints.givenName],
                                 decoration: InputDecoration(
                                     enabledBorder: InputBorder.none,

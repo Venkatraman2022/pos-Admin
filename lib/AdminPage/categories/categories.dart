@@ -22,7 +22,6 @@ class _CategoriesState extends State<Categories> {
   TextEditingController categoryController = TextEditingController();
   String catName;
   String docId;
-  var maskFormatter = new MaskTextInputFormatter(mask: '+61 (##) ####-####', filter: { "#": RegExp(r'[0-9]') });
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery
@@ -486,9 +485,9 @@ class _CategoriesState extends State<Categories> {
                           textCapitalization: TextCapitalization.words,
                           keyboardType: TextInputType.text,
                           controller: categoryController,
-                          inputFormatters: [
-                            FilteringTextInputFormatter.allow(
-                                RegExp('[a-z,A-Z]')),],
+                          // inputFormatters: [
+                          //   FilteringTextInputFormatter.allow(
+                          //       RegExp('[a-z,A-Z]')),],
                           autofillHints: [AutofillHints.givenName],
                           decoration: InputDecoration(
                               enabledBorder: InputBorder.none,
